@@ -19,7 +19,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://chiamaka-ugwu.github.io/Social-Proof-Section/](https://chiamaka-ugwu.github.io/Social-Proof-Section/)
 
 ## My process
 
