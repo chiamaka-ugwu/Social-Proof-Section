@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 28rem;
+    background-position: left top, right bottom;
+    overflow: hidden;
+}
+main{
+    width: 90%;
+    margin: 5rem 6rem;
+    margin-bottom: 0;
+}
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.text{
+    width: 45%;
+    margin-left: 2.3rem;
+
+}
+.text h1{
+    width: 60%;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: hsl(300, 43%, 22%);
+}
+.text p{
+    width: 70%;
+    color: hsl(303, 10%, 53%);
+    font-size: 0.8rem;
+}
+.bars{
+    width: 45%;
+}
+.reviews, .guru, .best-tech{
+    width: 65%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 15px;
+    padding: 13px;
+    border-radius: 10px;
+}
+.stars{
+    margin-left: 1rem;
+}
+.guru{
+    margin-left: 3rem;
+}
+.best-tech{
+    margin-left: 6rem;
+
+}
+.bars p{
+    margin-left: 1.1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.slides{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.slides p{
+    color: hsl(300, 24%, 96%);
+    font-size: 0.8rem;
+    line-height: 1.15rem;
+    margin-top: 1.5rem;
+}
+.colton, .irene, .anne{
+    width: 23%;
+    height: 9rem;
+    background-color: hsl(300, 43%, 22%);
+    margin: 1.5rem;
+    padding: 30px;
+    border-radius: 0.5rem;
+}
+.colton{
+    margin-top: 3rem;
+    margin-left: 0;
+}
+.irene{
+    margin-top: 4rem;
+}
+.anne{
+    margin-top: 5rem;
+}
+.heading{
+    display: flex;
+}
+.heading img{
+    width: 45px;
+    border-radius: 50%;
+}
+.heading .text{
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    line-height: 1.1rem;
+}
+.heading h2{
+    color: hsla(300, 24%, 96%, 0.897);
+    font-size: 0.8rem;
+}
+.heading h3{
+    color: hsla(333, 80%, 67%, 0.918);
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+.attribution{
+    font-size: 0.8rem;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-weight: 400;
+}
+.attribution a{
+    color: hsl(333, 80%, 67%);
+}
+
+
+
+@media screen and (max-width: 420px) {
+    body{
+        background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+        background-size: contain;
+        overflow: visible;
+    }
+    main{
+        margin: 2.5rem;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .header{
+        flex-flow: column wrap;
+    }
+    .header .text{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .text h1{
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .text p{
+        width: 95%;
+        line-height: 1.1rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .bars{
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+    .reviews, .guru, .best-tech{
+        width: 90%;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    .stars img{
+        width: 0.8rem;
+    }
+    .guru{
+        margin-left: 0;
+    }
+    .best-tech{
+        margin-left: 0;
+    }
+    .slides{
+        flex-flow: column wrap;
+    }
+    .colton, .irene, .anne{
+        width: 70%;
+        height: auto;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+    footer{
+        width: 80%;
+        margin: auto;
+    }
+}
